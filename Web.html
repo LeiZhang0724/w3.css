@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<title>OZCHOICE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-sidenav a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidenav/menu -->
+<nav class="w3-sidenav w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidenav">
+  <div class="w3-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-closebtn w3-hover-text-red"></i>
+    <h3 class="w3-wide"><b>OZCHOICE</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="#">Monitor</a>
+    <a href="#">Massage</a>
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-text-black">
+      Pets <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc" class="w3-hide w3-padding-large w3-medium">
+      <a href="#" class="w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Bed</a>
+      <a href="#">Leash</a>
+      <a href="#">Toys</a>
+      <a href="#">Home</a>
+    </div>
+  </div>
+  <a href="#footer" class="w3-padding">Contact</a> 
+  <a href="javascript:void(0)" class="w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
+  <a href="#footer"  class="w3-padding">Subscribe</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding-24">
+  <span class="w3-left w3-wide">OZCHOICE</span>
+  <a href="javascript:void(0)" class="w3-right w3-opennav" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge" href="#header">
+    <h2 class="w3-left">Massage</h2>
+    <p class="w3-right">
+      <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <i class="fa fa-search"></i>
+    </p>
+    <!-- sub title-->
+    <h3 class="w3-left">Home & Car Shiatsu Massage Pillow Massager Cushion Neck Back Shoulder Body Legs</h3>
+  </header>
+  <!--Panel-->
+  <div class="w3-panel w3-light-grey">
+	<h4 class="w3-text-shadow w3-xlarge w3-text-teal w3-center">Shiatsu Massage Cushion Neck Back Body Pillow Home & Car 2016 new model 6 rolling balls gives extra comfort</h4>
+	</div>
+
+  <!-- Product grid -->
+  <div class="w3-row">
+	<div class="w3-col l6 s12">
+      <div class="w3-container">
+	  		<div class="w3-display-container">
+
+        <img src="C:\Users\admin\Desktop\MAS008/1.jpg" style="width:100%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-btn">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+      </div>
+    </div>
+	</div>
+	<div class="w3-col l6 s12">
+      <div class="w3-container">
+        <img src="C:\Users\admin\Desktop\MAS008/2.jpg" style="width:100%">
+		<div class="w3-display-middle w3-display-hover">
+            <button class="w3-btn">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+      </div>
+    </div>
+	
+	<!--Panel-->
+	<div class="w3-panel">
+	<p class="w3-text-shadow w3-xlarge w3-text-cyan w3-center ">Shiatsu Massage Cushion Neck Back Body Pillow Home & Car 2016 new model 6 rolling balls gives extra comfort</p>
+	</div>
+
+	<div class="w3-col l6 s12">
+      <div class="w3-container">
+		<div class="w3-display-container">
+			<img src="C:\Users\admin\Desktop\MAS008/5.jpg" style="width:100%">
+			<div class="w3-display-middle w3-display-hover">
+				<button class="w3-btn">Buy now <i class="fa fa-shopping-cart"></i></button>
+			</div>
+		</div>
+      </div>	  
+    </div>
+	<div class="w3-col l6 s12">
+      <div class="w3-container">
+        <img src="C:\Users\admin\Desktop\MAS008/6.jpg" style="width:100%">
+      </div>
+	  <div class="w3-display-middle w3-display-hover">
+            <button class="w3-btn">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+    </div>
+	<!--Panel-->
+	<div class="w3-panel">
+	<p class="w3-text-shadow w3-xlarge w3-text-cyan w3-center ">Equipped with Both Car Lighter Adaptor & Mains Power Adaptor</p>
+	</div>
+	
+	<div class="w3-col l6 s12">
+      <div class="w3-container">
+		<div class="w3-display-container">
+			<img src="C:\Users\admin\Desktop\MAS008/3.jpg" style="width:100%">
+			<div class="w3-display-middle w3-display-hover">
+				<button class="w3-btn">Buy now <i class="fa fa-shopping-cart"></i></button>
+			</div>
+		</div>	
+        
+      </div>
+	  
+    </div>
+	<div class="w3-col l6 s12">
+	
+      <div class="w3-container">
+        <img src="C:\Users\admin\Desktop\MAS008/4.jpg" style="width:100%">
+      </div>
+	  <div class="w3-display-middle w3-display-hover">
+            <button class="w3-btn">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+    </div>
+	<!--Panel-->
+	<div class="w3-panel">
+	<p class="w3-text-shadow w3-xlarge w3-text-cyan w3-center ">	Shiatsu Pillow Ideal for Neck Aches, Back Aches,  Head Pain, Body Aches & More</p>
+	</div>
+  </div>
+  
+  <div class="w3-row">
+  <div class="w3-col l6 s12">
+      <div class="w3-container">
+        <img src="C:\Users\admin\Desktop\MAS008/7.jpg" style="width:100%">
+      </div>
+	  <div class="w3-display-middle w3-display-hover">
+            <button class="w3-btn">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+    </div>
+	<div class="w3-col l6 s12">
+      <div class="w3-container">
+        <img src="C:\Users\admin\Desktop\MAS008/8.jpg" style="width:100%">
+      </div>
+	  <div class="w3-display-middle w3-display-hover">
+            <button class="w3-btn">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+    </div>
+	
+
+
+	<div class="w3-col l12 s12">
+      <div class="w3-container">
+        <img src="C:\Users\admin\Desktop\MAS008/9.jpg" style="width:100%">
+      </div>
+	  <div class="w3-display-middle w3-display-hover">
+            <button class="w3-btn">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+    </div>
+	
+  </div>
+  
+  <!--Text-->
+  <div class="w3-text-red">
+  <h4>
+  Specification
+  </h4>
+  
+  <ol>
+	<li> With fashion and smart design, is good companion for car, office and home use;</li>
+	<li> Designed with line-controller ON/OFF to start the machine;</li>
+	<li> DC12V switching power and cigarette lighter supplied( car plug);</li>
+	<li> Using at Lumbar, waist,thigh, arm ,neck, leg, stomach or any other position you want;</li>
+  </ol>
+
+	<h4>
+  Features
+  </h4>
+  <ol>
+	<li> Power: AC home adapter and 12V auto adapter included, Australia plug 
+</li>
+	<li> INPUT/OUTPUT: 100-240V~50/60Hz. DC12V~2A</li>
+	<li> Color: Blue/ Brown;</li>
+	<li> Wight:1.5kg</li>
+	<li> Working time: 15 minutes</li>
+  </ol>
+
+
+	<h4>
+  Package Included:
+
+  </h4>
+  <ol>
+	<li> 1*Multifunction Massage Pillow
+
+</li>
+	<li> 1*DC 12V Plug</li>
+	<li> 1*Car line adapter</li>
+	<li> 1*User's Manual</li>
+  </ol>
+
+</div>
+
+  <!-- Tabs -->
+  
+  <div class="w3-bar w3-black">
+    <button class="w3-bar-item w3-button tablink w3-red w3-large" onclick="openTab(event,'Freight')">
+		<i class="fa fa-truck"></i> Freight</button>
+    <button class="w3-bar-item w3-button tablink w3-large" onclick="openTab(event,'Payment')">
+		<i class="fa fa-paypal"></i> Payment</button>
+    <button class="w3-bar-item w3-button tablink w3-large" onclick="openTab(event,'Return')">
+		Return Policy</button>
+		<button class="w3-bar-item w3-button tablink w3-large" onclick="openTab(event,'Contact')">
+		Contact</button>
+  </div>
+  
+  <div id="Freight" class="w3-container w3-border city">
+    <h2>Freight</h2>
+    <p>London is the capital city of England.</p>
+  </div>
+
+  <div id="Payment" class="w3-container w3-border city" style="display:none">
+    <h2>Payment</h2>
+    <p>Paris is the capital of France.</p> 
+  </div>
+
+  <div id="Return" class="w3-container w3-border city" style="display:none">
+
+    <h2>Return Policy</h2>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+  <div id="Contact" class="w3-container w3-border city" style="display:none">
+    <h2>Contact</h2>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+  
+  <br>
+  <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>Contact</h4>
+        <p>Questions? Go ahead.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-btn-block w3-padding w3-black">Send</button>
+        </form>
+      </div>
+
+      <div class="w3-col s4">
+        <h4>About</h4>
+        <p><a href="#">About us</a></p>
+        <p><a href="#">We're hiring</a></p>
+        <p><a href="#">Support</a></p>
+        <p><a href="#">Find store</a></p>
+        <p><a href="#">Shipment</a></p>
+        <p><a href="#">Payment</a></p>
+        <p><a href="#">Gift card</a></p>
+        <p><a href="#">Return</a></p>
+        <p><a href="#">Help</a></p>
+      </div>
+
+      <div class="w3-col s4 w3-justify">
+        <h4>Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
+        <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+        <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+        <i class="fa fa-facebook-official w3-xlarge w3-hover-text-indigo"></i>
+        <i class="fa fa-instagram w3-xlarge w3-hover-text-purple"></i>
+        <i class="fa fa-twitter w3-xlarge w3-hover-text-light-blue"></i>
+        <i class="fa fa-pinterest w3-xlarge w3-hover-text-red"></i>
+        <i class="fa fa-flickr w3-xlarge w3-hover-text-blue"></i>
+      </div>
+    </div>
+  </footer>
+
+  <div class="w3-black w3-center w3-padding-24">Powered by OZCHOICE</div>
+
+  <!-- End page content -->
+</div>
+
+<!-- Newsletter Modal -->
+<div id="newsletter" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-padding-jumbo">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-closebtn w3-xlarge w3-hover-text-grey w3-margin"></i>
+      <h2 class="w3-wide">NEWSLETTER</h2>
+      <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-btn w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Accordion 
+function myAccFunc() {
+    var x = document.getElementById("demoAcc");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+function openTab(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+</script>
+
+
+</body>
+</html>
